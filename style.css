@@ -1,17 +1,26 @@
 .nav-bar{
     background-color: white;
-    overflow: hidden;
     position: center;
-    text-decoration: none;
+    display: flex;
+    justify-items: auto;
+    text-align: justify;
+    justify-content: space-around;
+    column-gap: normal;
+    -webkit-text-fill-color: black;
+    color: white;
 
 }
+body{
+    background-color: pink;
+}
 #webPage{
-
+    background-color: white;
     width: 65%;
     margin-left: 20%;
     margin-right: 0 auto;
     border: solid 1 px;
     font-size: large;
+    padding: 70px;
     
 }
 .heroImage{
@@ -83,19 +92,6 @@ div.desc {
     width: 24.99999%;
 }
   
-@media only screen and (max-width: 700px) {
-    .responsive {
-      width: 49.99999%;
-      margin: 6px 0;
-    }
-}
-  
-@media only screen and (max-width: 500px) {
-    .responsive {
-      width: 100%;
-}
-}
-  
 .clearfix:after {
     content: "";
     display: table;
@@ -129,12 +125,11 @@ div.desc {
 
 }
   
-  /* Create three equal columns that floats next to each other */
 .column {
     float: left;
     width: 25%;
     padding: 10px;
-    height: 300px; /* Should be removed. Only for demonstration */
+    height: 300px; 
 }
 
 .row1{
@@ -142,7 +137,6 @@ div.desc {
     margin-right: auto;
 }
   
- /* Clear floats after the columns */
 .row:after {
     content: "";
     display: table;
